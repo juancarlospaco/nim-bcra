@@ -17,6 +17,7 @@ echo cliente.getDeudores(fecha = now())     # Deudores
 **Arguments**
 
 - All functions require `fecha` of `DateTime` type, eg `fecha = now() - 2.days`.
+- It is not documented when the data for current day becomes available, if you get errors use `fecha = now() - 1.days` for yesterdays data.
 
 **Return**
 
