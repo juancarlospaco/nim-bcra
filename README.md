@@ -29,6 +29,11 @@ echo cliente.getDeudores(fecha = now())     # Deudores
 ```
 
 
+# SSL
+
+- Compile with `-d:ssl` to use HTTPS and SSL. It works with and without SSL.
+
+
 # Install
 
 - `nimble install bcra`
