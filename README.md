@@ -16,6 +16,14 @@ echo cliente.getDeudores(fecha = now())     # Deudores
 
 - All functions require `fecha` of `DateTime` type, eg `fecha = now() - 2.days`.
 
+Return data type:
+
+```nim
+[
+  (cuit: int, numeroDeCheque: int, fechaRechazado: DateTime, monto: int, causal: string, fechaLevantamiento: string, ley25326art16inc6: string, ley25326art38inc3: string, cuitJuridico: string, multa: string),
+]
+```
+
 
 # Install
 
