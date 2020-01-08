@@ -14,9 +14,13 @@ echo cliente.getAltasPadron(fecha = now())  # Altas nuevas en el sistema
 echo cliente.getDeudores(fecha = now())     # Deudores
 ```
 
+**Arguments**
+
 - All functions require `fecha` of `DateTime` type, eg `fecha = now() - 2.days`.
 
-Return data type:
+**Return**
+
+- Return data type is a list of tuples:
 
 ```nim
 [
